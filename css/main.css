@@ -1,41 +1,56 @@
-
+html {
   background-color: #fdf6e3;
+}
 
-<header>
+header, footer {
   font-size: 1.5rem;
+}
 
-<nav>
-  <ul>
+nav ul {
   font-family: sans-serif;
+}
 
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
   background-color: #eee8d5;
+}
 
+h2 {
   color: #93a1a1;
+}
 
+.wrapper > .dfn {
   background-color: #b58900;
+}
 
-  color: #fff;
+.logo ul li:nth-child(2) {
+  background-color: #fff;
+}
 
-  <a> <.no-highlight>
-   background-color: #2694d8;
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
 
-   <ol>
-    <li>
-    color: #2aa198;
+[rel="external"] {
+  background-color: #2694d8;
+}
 
-    <li>
-    background-color: #657ba3;
+ol li:first-child {
+  color: #719e47;
+}
 
-    <li>
-    background-color: #586e75;
+ol li:nth-child(3) {
+  color: #2aa198;
+  background-color: #d04b16;
+}
 
-    <li>
-    background-color: #fdf6e3
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
 
-    text-transform: uppercase;
-
-    background color: #719e07;
-
-    color: #719e47;
-
-    background-color: #d04b16;
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
